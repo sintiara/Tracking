@@ -22,5 +22,5 @@ export const { Context, Provider } = createDataContext(
     stopRecording,
     addLocation
   },
-  { recording: false, location: [], currentLocation: [] }
+  { recording: false, locations: [], currentLocation: null }
 );
